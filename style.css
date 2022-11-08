@@ -224,8 +224,8 @@ button:hover {
 }
 
 .button-middle button:hover {
-    background-color: var(--bs-white);
-    color: var(--bs-blue);
+    background-color: rgb(76, 138, 219);
+    color: var(--bs-white);
     transition: 0.3s;
     cursor: pointer;
 }
