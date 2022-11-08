@@ -3,6 +3,7 @@
 :root {
     --bs-blue: rgb(84,159,255);
     --bs-white: rgb(255,255,255);
+    --bs-border: rgb(247,248,251);
 }
 
 body {
@@ -33,5 +34,18 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 1rem;
+    
+}
+
+#column-mid {
+    background-color: var(--bs-white);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    border-color: var(--bs-border);
+    border-right: 3px solid var(--bs-border);
+    border-left: 3px solid var(--bs-border);
     
 }
