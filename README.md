@@ -1,1 +1,1 @@
-# pricing-panel
+# Pricing panel
