@@ -17,3 +17,4 @@ This project is designed to solidify my understanding of HTML, CSS, responsive w
 ## Challenges I faced when building this project
 1. <b>Centering the div in the middle of the page</b>: This problem sounds simple, but I'm glad I'm finding my weaknesses now! In order to center the div I attempted to use <code>transform: translate (-50%, -50%)</code>
 2. <b>Overflow of button in columns</b>: Without adjusting the height of the container, the 3 buttons would be overflowing.
+3. <b>Stacking divs on top of each other on smaller screens</b>: One of the biggest challenges faced. I utilised Google chrome dev tools to see how the pricing panel behaved in different circumstances. I am still unable to figure out how to make space at the bottom of pricing panel in smaller screens.
