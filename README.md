@@ -15,3 +15,4 @@ This project is designed to solidify my understanding of HTML, CSS, responsive w
 + Git
 
 ## Challenges I faced when building this project
+1. <b>Centering the div in the middle of the page</b>: This problem sounds simple, but I'm glad I'm finding my weaknesses now! In order to center the div I attempted to use <code>transform: translate (-50%, -50%)</code>
