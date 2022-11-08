@@ -24,7 +24,32 @@ body {
     border: 1px solid var(--bs-white);
     border-radius: 0.5rem;
     box-shadow: 1px 5px 30px gray;
-    overflow: hidden;
+    flex-direction: row;
+
+
+}
+
+@media (max-width:1100px) {
+    .main {
+        width: 40%;
+        flex-direction: column;
+        display: flex;
+        align-items: none;
+        height: 34rem;
+        width: none;
+        top: 80%;
+        border-radius: 0px;
+        border: 0px;
+    }
+
+    .column {
+
+    }
+    #column-mid {
+        border-radius: 0;
+        border-right: 0px solid !important;
+        border-left: 0px solid !important;
+    }
 
 }
 
@@ -51,6 +76,7 @@ body {
     border-left: 3px solid var(--bs-border);
     text-align: center;
 }
+
 
 img {
     width: 60%;
