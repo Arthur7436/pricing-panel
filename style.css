@@ -2,6 +2,7 @@
 
 :root {
     --bs-blue: rgb(84,159,255);
+    --bs-dark-blue: rgb(56, 120, 223);
     --bs-white: rgb(255,255,255);
     --bs-border: rgb(247,248,251);
     --bs-column-title: rgb(165,163,165);
@@ -16,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     display:flex;
-    height: 30rem;
+    height: 34rem;
     width: 70rem;
     position: absolute;
     top: 50%;
@@ -25,6 +26,7 @@ body {
     border: 1px solid var(--bs-white);
     border-radius: 0.5rem;
     box-shadow: 1px 5px 30px gray;
+    overflow: hidden;
 
 }
 
@@ -37,7 +39,6 @@ body {
     width: 100%;
     border-radius: 1rem;
     text-align: center;
-    
 }
 
 #column-mid {
@@ -54,8 +55,8 @@ body {
 }
 
 img {
-    width: 70%;
-    margin-top: 20px;
+    width: 60%;
+    margin-top: 10px;
     height: auto;
 }
 
@@ -67,13 +68,14 @@ h1 {
 }
 
 .column-detail {
-    color: var(--bs-blue);
+    color: var(--bs-dark-blue);
     font-family: sans-serif;
     font-size: 0.8rem;
     font-weight: 600;
     padding: 1.8rem;
     text-transform: uppercase;
-    margin: 0 3rem;
+    margin: 0 2.5rem;
+    margin-top: 15px;
 }
 
 .top-info {
@@ -86,3 +88,22 @@ h1 {
     border-bottom: 2px solid var(--bs-border);
     padding: 1rem;
 }
+
+.button {
+    color: var(--bs-dark-blue);
+    font-size: 1.7em;
+    font-weight: 900;
+    margin-top: -25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 0.7rem 2.4rem;
+    border-radius: 7px;
+    background-color: var(--bs-white);
+    text-transform: uppercase;
+    color: var(--bs-blue);
+    border: 0.5px solid var(--bs-blue);
+}
+
